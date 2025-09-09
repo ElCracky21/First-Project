@@ -1,0 +1,59 @@
+/* General page style */
+
+body {
+  font-family: Arial, sans-serif; /* Simple font */
+
+  margin: 0; /* Remove default margin */
+
+  padding: 0; /* Remove default padding */
+
+  background-color: lightblue; /* Light blue background */
+}
+
+/* Header style */
+header {
+  background-color: navy; /* Dark blue background */
+
+  color: white; /* White text */
+
+  text-align: center; /* Center text */
+
+  padding: 20px; /* Space inside header */
+}
+
+/* Main section style */
+main {
+  padding: 20px; /* Space around content */
+}
+
+/* Headings (h2) style */
+h2 {
+  color: darkblue; /* Dark blue text */
+}
+
+/* Profile image style */
+img {
+  width: 150px; /* Set image size */
+  border-radius: 50%; /* Make image round */
+  display: block; /* Show as block */
+  margin: 10px 0; /* Space above and below */
+}
+
+/* Footer style */
+footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Center text */
+  padding: 10px; /* Space inside footer */
+}
+
+/* Links inside footer */
+footer a {
+  color: yellow; /* Yellow text */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Links hover effect */
+footer a:hover {
+  text-decoration: underline; /* Underline when mouse is over */
+}

@@ -21,17 +21,17 @@ header {
   padding: 20px; /* Space inside header */
 }
 
-/* Main section style */
+
 main {
   padding: 20px; /* Space around content */
 }
 
-/* Headings (h2) style */
+
 h2 {
   color: darkblue; /* Dark blue text */
 }
 
-/* Profile image style */
+
 img {
   width: 150px; /* Set image size */
   border-radius: 50%; /* Make image round */
@@ -39,7 +39,7 @@ img {
   margin: 10px 0; /* Space above and below */
 }
 
-/* Footer style */
+
 footer {
   background-color: #333; /* Dark background */
   color: white; /* White text */
@@ -56,4 +56,28 @@ footer a {
 /* Links hover effect */
 footer a:hover {
   text-decoration: underline; /* Underline when mouse is over */
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px
+}
+
+#funFact {
+  margin-top: 15px;
+  font-style: italic;
+  color: #333;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.hidden {
+  display: none;
 }
